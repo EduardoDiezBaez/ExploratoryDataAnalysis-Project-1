@@ -70,7 +70,7 @@ plot(myworkingdata$Global_active_power ~ myworkingdata$myfulldates,
 
 # get the values x & y to be ploted with line as a density curve
 xfit <- myworkingdata$myfulldates
-yfit <- myworkingdata$Global_active_powe
+yfit <- myworkingdata$Global_active_power
 
 # add line and the custom x axis to the open plot
 lines(xfit, yfit, lwd = 0.5) 
