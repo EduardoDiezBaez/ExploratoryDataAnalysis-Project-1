@@ -70,8 +70,8 @@ par(mfrow = c(2, 2))
 # that ylab=ylab="Global Active Power" rather than
 # ylab=ylab="Global Active Power (kilowatts)" as in plot2.png
 
-# plot formula Global_active_powe in function of myfulldates
-plot(myworkingdata$Global_active_powe ~ myworkingdata$myfulldates, 
+# plot formula Global_active_power in function of myfulldates
+plot(myworkingdata$Global_active_power ~ myworkingdata$myfulldates, 
      type="o",
      ylab="Global Active Power",
      xlab="",  
@@ -80,7 +80,7 @@ plot(myworkingdata$Global_active_powe ~ myworkingdata$myfulldates,
 
 # get the values x & y to be ploted with line as a density curve
 xfit <- myworkingdata$myfulldates
-yfit <- myworkingdata$Global_active_powe
+yfit <- myworkingdata$Global_active_power
 
 # add line and the custom x axis to the open plot
 lines(xfit, yfit, lwd = 0.5) 
