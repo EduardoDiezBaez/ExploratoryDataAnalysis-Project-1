@@ -61,9 +61,9 @@ png(file = "./plot1.png",
     pointsize = 12,
     bg = "transparent")
 
-# plot the histogram of Global_active_powe at color red
+# plot the histogram of Global_active_power at color red
 # and label the plot tittle and x axis 
-x <- myworkingdata$Global_active_powe   
+x <- myworkingdata$Global_active_power   
 hist(x,
      col="red", 
      main="Global Active Power", 
