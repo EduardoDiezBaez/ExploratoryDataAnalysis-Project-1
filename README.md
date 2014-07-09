@@ -1,4 +1,4 @@
-ExploratoryDataAnalysis-Project-1
+Exploratory Data Analysis Project 1
 =================================
 
 Here is the repository of the 8 files that correspond to the peer project 1 of the Exploratory Data Analysiscourse.
